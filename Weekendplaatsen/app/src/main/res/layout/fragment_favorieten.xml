@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/grey"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FAVORIETEN"
+        android:textSize="35sp"
+        android:textColor="@color/dark_beer"
+        android:padding="5dp"
+        android:textAlignment="center"/>
+
+    <LinearLayout
+        android:id="@+id/llNoFavo"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fav_nofav"
+            android:textSize="13sp"
+            android:textColor="@color/dark_beer"
+            android:padding="5dp"
+            android:textAlignment="center"/>
+
+
+    </LinearLayout>
+
+    <ListView
+        android:paddingTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lvfav">
+    </ListView>
+
+</LinearLayout>

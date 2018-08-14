@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/grey"
+    tools:context="com.example.cedric.weekendplaatsen.Fragment.ProvincieFragment">
+
+
+    <RelativeLayout
+        android:id="@+id/rlOostvl"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/white"
+            android:shadowColor="@color/black"
+            android:textSize="25dp"
+            android:text="Oost-Vlaanderen"
+            android:textAlignment="center"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rlWestvl"
+        android:layout_below="@+id/rlOostvl"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/white"
+            android:shadowColor="@color/black"
+            android:textSize="25dp"
+            android:text="West-Vlaanderen"
+            android:textAlignment="center"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rlAntwerpen"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:shadowColor="@color/black"
+            android:textSize="25dp"
+            android:text="Antwerpen"
+            android:textAlignment="center"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rlLimburg"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:shadowColor="@color/black"
+            android:textSize="25dp"
+            android:text="Limburg"
+            android:textAlignment="center"/>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rlVlaamsBrabant"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:shadowColor="@color/black"
+            android:textSize="25dp"
+            android:text="Vlaams Brabant"
+            android:textAlignment="center"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

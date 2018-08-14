@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_favorieten" android:title="Favorieten" />
+        <item android:id="@+id/nav_zoeken" android:title="Zoeken" />
+        <item android:id="@+id/nav_provincie" android:title="Provincies" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_addkamp" android:title="Add Kamp" />
+    </group>
+</menu>

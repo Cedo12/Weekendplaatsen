@@ -1,0 +1,30 @@
+{
+"weekendplaatsen": [
+{
+  "E-mail": "lokaal@scoutszingem.be",
+  "Naam":"Scouts Den Broek",
+  "Jeugdbeweging": "Scouts",
+  "Verantwoordelijke": "Cedric Testpersoon",
+  "Nummer_Verantwoordelijke": "0494265970",
+  "Straat": "Groenstraat 12",
+  "Gemeente":"Zingem",
+  "Postcode":"9750",
+  "Provincie":"Oost-Vlaanderen",
+  "Afstand_van_lokaal": 10.000,
+  "Website": "www.test.be"
+},
+{
+  "E-mail": "chiro-eine@hotmail.be",
+  "Naam":"Chiro Den Duvel",
+  "Jeugdbeweging": "Chiro",
+  "Verantwoordelijke": "Cedric Testpersoon2",
+  "Nummer_Verantwoordelijke": "0494265970",
+  "Straat": "Abra Kadabra 123",
+  "Gemeente":"Gent",
+  "Postcode":"9000",
+  "Provincie":"West-Vlaanderen",
+  "Afstand_van_lokaal": 15.000,
+  "Website": "www.test2.be"
+}
+]
+}

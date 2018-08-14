@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#fb7d89</color>
+    <color name="white">#fff</color>
+    <color name="black">#000000</color>
+    <color name="greyCE">#ccc</color>
+    <color name="card_shadow">#8c666666</color>
+    <color name="dark_beer">#383b44</color>
+
+    <color name="red">#f94557</color>
+    <color name="grey">#EFEFEF</color>
+
+
+</resources>
